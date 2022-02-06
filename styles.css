@@ -1,0 +1,56 @@
+
+
+ #count {
+    border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    border-width: 5px;
+    width: 50px;
+    text-align: center;
+    height: 20px;
+  
+}
+
+#tip {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#totalflex {
+    display: flex;
+    justify-content: center;
+}
+
+#submitflex {
+    display: flex;
+    justify-content: center;
+}
+
+
+#increase, #decrease {
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+#increase {
+    color: green;
+
+}
+
+#decrease {
+    color: red;
+}
+
+#tipTotal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
