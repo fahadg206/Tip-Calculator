@@ -36,7 +36,7 @@ console.log(typeof(tipTotal))
 const finalTotal = document.getElementById('finalTotal');
 
 // Customer is able to see total after tip and cost of meal is added //
-finalTotal.innerHTML = `Total:  $  ${costOfMeal} + ${tipTotal}`;
+finalTotal.innerHTML = `Total:  $  ${costOfMeal + tipTotal}`;
 
 console.log(typeof(costOfMeal));
 console.log(typeof(tipTotal));
