@@ -1,11 +1,13 @@
 
 
+
+
  #count {
     border: 1px solid black;
     text-align: center;
     font-weight: bold;
     font-size: 1em;
-    border-width: 5px;
+    border-width: 1px;
     width: 50px;
     text-align: center;
     height: 20px;
@@ -32,7 +34,7 @@
 
 
 #increase, #decrease {
-    padding: 5px;
+    padding: 3px;
     margin: 10px;
     font-weight: bold;
     font-size: 1rem;
