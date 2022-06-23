@@ -32,14 +32,11 @@ tipAmount.innerHTML = "Tip: " + "$" + costOfMeal *tip / 100
 
 const tipTotall = costOfMeal * tip / 100;
 const tipTotal = Number(tipTotall);
-console.log(typeof(tipTotal))
 const finalTotal = document.getElementById('finalTotal');
 
 // Customer is able to see total after tip and cost of meal is added //
 finalTotal.innerHTML = `Total:  $${costOfMeal + tipTotal}`;
 
-console.log(typeof(costOfMeal));
-console.log(typeof(tipTotal));
 
 
 
